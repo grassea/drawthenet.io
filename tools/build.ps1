@@ -386,7 +386,7 @@ function DownloadD365Icons {
     $destPath = join-path $iconsPath "D365"
 
     Write-Output "Download..."
-    Invoke-WebRequest -Uri "https://download.microsoft.com/download/3/e/a/3eaa9444-906f-468d-92cb-ada53e87b977/Dynamics_365_Icons_scalable.zip" -OutFile $zipPath
+    Invoke-WebRequest -Uri "https://download.microsoft.com/download/3/e/a/3eaa9444-906f-468d-92cb-ada53e87b977/Dynamics_365_Icons_scalable_2024.zip" -OutFile $zipPath
     Write-Output "Done"
 
     Write-Output "Extract..."
