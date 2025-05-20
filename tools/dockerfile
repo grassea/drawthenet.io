@@ -10,7 +10,7 @@ RUN cmake . -DCMAKE_INSTALL_PREFIX=/usr/ && make && make install
 
 # Build drawthenet.io
 WORKDIR /tmp/drawthenet.io/
-RUN git clone https://github.com/remygrandin/drawthenet.io.git -b master
+RUN git clone https://github.com/grassea/drawthenet.io.git -b master
 WORKDIR /tmp/drawthenet.io/drawthenet.io/tools
 run pwsh ./build.ps1
 
